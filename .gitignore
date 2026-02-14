@@ -1,0 +1,43 @@
+# ======================
+# NODE / FRONTEND
+# ======================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ======================
+# PYTHON / BACKEND
+# ======================
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ======================
+# ENV FILES (IMPORTANT)
+# ======================
+.env
+backend/.env
+frontend/.env
+
+# ======================
+# IDE / EDITOR
+# ======================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# ======================
+# OS FILES
+# ======================
+Thumbs.db
